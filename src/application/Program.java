@@ -1,10 +1,13 @@
 package application;
 
+import Chess.ChessMatch;
+
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println();
+		ChessMatch chaessMatch = new ChessMatch();
+		UI.printeBoard(chaessMatch.getPieces());
 	}
 
 }
